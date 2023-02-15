@@ -43,7 +43,7 @@ Version numbers start at "1.0.0" when the protocol is first completed and will i
 
 | VERSION  | RELEASE DATE This is the date when a given protocol version was finalised | DESCRIPTION OF REVISIONS Please include a brief description of what was changed relative to the previous version |
 | ------------- | ------------- | ------------- |
-| 1.0.0  | yyyy-mm-dd  | Initial release  |
+| 1.0.0  | 2023-02-15  | Initial release  |
 | Content Cell  | Content Cell  | Content Cell  |
 
 ## RELATED PROTOCOLS IN YOUR FOLDER
@@ -83,47 +83,32 @@ This document describes the required protocol to conduct insert name of the meth
 
 ## Summary
 
-Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
-Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
+Sequencing will be performed at a centralized sequencing facility to reduce biases as much as
+possible. The Water Column WaSOP1 and the Soft sediment samples for microorganisms will be
+analysed using metagenomics. All other samples will be analysed using DNA metabarcoding
+methodologies. Samples and analyses details are summarized in the Table below.
 
-## Method description and rationale
 
-Insert a short description of the functioning principal of the methodology used in the protocol (i.e. how does the method work?). Please note that this is different from the step-by-step description of the protocol procedure.
-Insert a short statement explaining why the specific methodology used in the protocol has been selected (e.g. it is highly reproducible, highly accurate, procedures are easy to execute etc….).
+| Protocol | Sample | Analyses|Details|Primer references|
+| ----- | ----- | ----- | ----- | ----- |
+| WaSOP 1 | Microorganisms (3 um fraction) | Metagenomes |150 bp fragments, paired reads, 50 M reads per sample | |
+| WaSOP 1 | Microorganisms (0.2 um fraction) | Metagenomes |150 bp fragments, paired reads, 50 M reads per sample | |
+| WaSOP 1 | Microorganisms (3 um fraction) | Metabarcodes |ITS amplicon, paired reads, 1 M reads per sample per amplicon |ITS1F (Bruns and Gardes, 1993) and ITS2 (White et al., 1990) |
+| WaSOP 1 | Microorganisms (0.2 um fraction) | Metabarcodes |ITS amplicon, paired reads, 1 M reads per sample per amplicon |ITS1F (Bruns and Gardes, 1993) and ITS2 (White et al., 1990) |
+| WaSOP 2 | Plankton >20 um | Metabarcodes |18S v4 region, COI amplicon, paired reads, 1 M reads per sample per amplicon |18S v4 region: to be decided, COI: mlCOIintF and jgHCO2198 (Leray et al., 2013) |
+| WaSOP 3 | Plankton >200 um | Metabarcodes |18S v4 region, COI amplicon, paired reads, 1 M reads per sample per amplicon |18S v4 region: to be decided, COI: mlCOIintF and jgHCO2198 (Leray et al., 2013) |
+| SoSOP 1, SoSOP 2, SoSOP 3 | Microorganisms | Metagenomes |150 bp fragments, paired reads, 1 M reads per sample | |
+| SoSOP 1, SoSOP 2, SoSOP 3 | Meiobenthos | Metabarcodes |18S v1-v2 region, COI amplicon, paired reads, 50 M reads per sample per amplicon |18S v1-v2 region: SSU_FO4 (Fonseca et al., 2010) and SSU_R22 (Blaxter et al., 1998) or SSU_R22mod (Sinniger et al., 2016), COI: mlCOIintF and jgHCO2198 (Leray et al., 2013) |
+| SoSOP 1, SoSOP 2, SoSOP 3 | Macrobenthos | Metabarcodes |18S v1-v2 region, COI amplicon, paired reads, 50 M reads per sample per amplicon |18S v1-v2 region: SSU_FO4 (Fonseca et al., 2010) and SSU_R22 (Blaxter et al., 1998) or SSU_R22mod (Sinniger et al., 2016), COI: mlCOIintF and jgHCO2198 (Leray et al., 2013) |
+| HaSOP | Sessile fraction | Metabarcodes |18S v1-v2 region, COI amplicon, paired reads, 1 M reads per sample per amplicon |18S v1-v2 region: SSU_FO4 (Fonseca et al., 2010) and SSU_R22 (Blaxter et al., 1998) or SSU_R22mod (Sinniger et al., 2016), COI: mlCOIintF and jgHCO2198 (Leray et al., 2013) |
+| HaSOP | Motile 0.5 mm fraction | Metabarcodes |18S v1-v2 region, COI amplicon, paired reads, 1 M reads per sample per amplicon |18S v1-v2 region: SSU_FO4 (Fonseca et al., 2010) and SSU_R22 (Blaxter et al., 1998) or SSU_R22mod (Sinniger et al., 2016), COI: mlCOIintF and jgHCO2198 (Leray et al., 2013) |
+| HaSOP | Motile 0.1 mm fraction | Metabarcodes |18S v1-v2 region, COI amplicon, paired reads, 1 M reads per sample per amplicon |18S v1-v2 region: SSU_FO4 (Fonseca et al., 2010) and SSU_R22 (Blaxter et al., 1998) or SSU_R22mod (Sinniger et al., 2016), COI: mlCOIintF and jgHCO2198 (Leray et al., 2013) |
 
-## Spatial coverage and environment(s) of relevance
 
-If applicable, please specify the region where the protocol is applied. For regional term guidance see here. If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the ENVO terminology.
 
-# PERSONNEL REQUIRED
 
-Insert the number of technicians, data managers, and scientists required for the good execution of the procedure
 
-## Safety
 
-Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
-
-## Training requirements
-
-Specify technical training required for the good execution of the procedure.
-
-## Time needed to execute the procedure
-
-Specify how much time is necessary to execute the procedure.
-
-# EQUIPMENT
-
-| DESCRIPTION e.g. filter | PRODUCT NAME AND MODEL Provide the official name of the product | MANUFACTURER Provide the name of the manufacturer of the product. | QUANTITY Provide quantities necessary for one application of the standard operating procedure (e.g. number of filters). | REMARK For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure. |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Durable equipment |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Consumable equipment |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Chemicals |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 
 # STANDARD OPERATING PROCEDURE
 
